@@ -73,7 +73,7 @@ resource "azurerm_role_assignment" "identity_roles" {
 }
 
 # VM
-resource "azurerm_windows_virtual_machine" "vm" {
+resource "azurerm_linux_virtual_machine" "vm" {
   name                = "test-vm"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
