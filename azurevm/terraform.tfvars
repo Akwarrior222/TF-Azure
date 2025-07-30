@@ -27,9 +27,9 @@ machine_ssh_keys = [
 ]
 
 # Image Reference
-image_publisher       = "MicrosoftWindowsServer"
-image_offer           = "WindowsServer"
-image_sku             = "2016-datacenter-gensecond"
+image_publisher       = "canonical"
+image_offer           = "0001-com-ubuntu-server-jammy"
+image_sku             = "22_04-lts"
 
 
 # Startup script
