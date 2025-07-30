@@ -1,6 +1,6 @@
 # General
 resource_group_name   = "migrationgroup"
-location              = "East US"
+location              = "Central India"
 project_name          = "demo"
 project_prefix        = "skcn"
 instance_name         = "test-vm"
@@ -14,7 +14,7 @@ private_ip_address    = "10.0.1.10"
 associate_public_ip   = true
 
 # VM Details
-vm_size               = "Standard_DC2s_v3"
+vm_size               = "Standard_D2s_v3"
 vm_zone               = null  # Let random selection happen
 admin_username        = "azureuser"
 
@@ -29,7 +29,7 @@ machine_ssh_keys = [
 # Image Reference
 image_publisher       = "Canonical"
 image_offer           = "0001-com-ubuntu-server-focal"
-image_sku             = "20_04-lts"
+image_sku             = "22_04-lts-gen1"
 
 
 # Startup script
