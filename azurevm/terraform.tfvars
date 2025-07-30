@@ -2,6 +2,8 @@
 resource_group_name   = "migrationgroup"
 location              = "Central India"
 project_name          = "demo"
+project_prefix        = "skcn"
+instance_name         = "test-vm"
 
 # Networking
 subnet_id             = "/subscriptions/6e659b1d-6646-44fc-91ad-d697826558a0/resourceGroups/migrationgroup/providers/Microsoft.Network/virtualNetworks/example-vnet/subnets/example-subnet"
