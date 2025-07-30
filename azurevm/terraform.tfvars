@@ -1,6 +1,6 @@
 # General
 resource_group_name   = "migrationgroup"
-location              = "Central India"
+location              = "East US"
 project_name          = "demo"
 project_prefix        = "skcn"
 instance_name         = "test-vm"
