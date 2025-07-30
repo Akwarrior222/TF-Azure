@@ -73,8 +73,8 @@ resource "azurerm_role_assignment" "identity_roles" {
 }
 
 # VM
-resource "azurerm_linux_virtual_machine" "vm" {
-  name                = local.instance_name
+resource "azurerm_windows_virtual_machine" "vm" {
+  name                = "test-vm"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   network_interface_ids = [
@@ -91,7 +91,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
   }
 
   os_disk {
-    name              = "${local.instance_name}-osdisk"
+    name              = "test-vm-osdisk"
     caching           = "ReadWrite"
     storage_account_type = "Standard_LRS"
   }
