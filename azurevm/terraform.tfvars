@@ -14,7 +14,7 @@ private_ip_address    = "10.0.1.10"
 associate_public_ip   = true
 
 # VM Details
-vm_size               = "Standard_D2s_v3"
+vm_size               = "Standard_D2ls_v5"
 vm_zone               = null  # Let random selection happen
 admin_username        = "azureuser"
 
@@ -27,9 +27,9 @@ machine_ssh_keys = [
 ]
 
 # Image Reference
-image_publisher       = "Canonical"
-image_offer           = "UbuntuServer"
-image_sku             = "22_04-lts-gen1"
+image_publisher       = "MicrosoftWindowsServer"
+image_offer           = "WindowsServer"
+image_sku             = "2016-datacenter-gensecond"
 
 
 # Startup script
