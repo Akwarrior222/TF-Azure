@@ -28,7 +28,7 @@ machine_ssh_keys = [
 
 # Image Reference
 image_publisher       = "Canonical"
-image_offer           = "0001-com-ubuntu-server-focal"
+image_offer           = "UbuntuServer"
 image_sku             = "22_04-lts-gen1"
 
 
