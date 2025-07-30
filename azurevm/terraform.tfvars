@@ -6,7 +6,7 @@ project_prefix        = "skcn"
 instance_name         = "test-vm"
 
 # Networking
-subnet_id             = "/subscriptions/6e659b1d-6646-44fc-91ad-d697826558a0/resourceGroups/migrationgroup/providers/Microsoft.Network/virtualNetworks/example-vnet/subnets/example-subnet"
+subnet_id             = "/subscriptions/9ab7ab94-d8d0-4de5-b31f-3ce088b0423b/resourceGroups/migrationgroup/providers/Microsoft.Network/virtualNetworks/example-vnet/subnets/example-subnet"
 private_ip_address    = "10.0.1.10"
 
 
