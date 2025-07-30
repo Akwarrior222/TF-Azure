@@ -14,8 +14,8 @@ private_ip_address    = "10.0.1.10"
 associate_public_ip   = true
 
 # VM Details
-vm_size               = "Standard_D2s_v4"
-vm_zone               = null  # Let random selection happen
+vm_size               = "Standard_D2s_v3"
+vm_zone               = "Zone 2"  # Let random selection happen
 admin_username        = "azureuser"
 
 # SSH Keys
