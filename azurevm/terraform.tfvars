@@ -14,7 +14,7 @@ private_ip_address    = "10.0.1.10"
 associate_public_ip   = true
 
 # VM Details
-vm_size               = "Standard_DS1_v2"
+vm_size               = "Standard_DC2s_v3"
 vm_zone               = null  # Let random selection happen
 admin_username        = "azureuser"
 
