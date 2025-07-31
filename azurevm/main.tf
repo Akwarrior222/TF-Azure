@@ -3,7 +3,7 @@ provider "azurerm" {
   subscription_id = "9ab7ab94-d8d0-4de5-b31f-3ce088b0423b" 
   tenant_id       = "deaef897-b598-44df-ae17-982bbdce0b3e"
   client_id       = "50613311-682c-47e2-a5ff-f9a2dbcf4978"
-  client_secret   = "LnS8Q~WAQd_75KLCUiWKDJg4SZBOH2FycR.uJchH"
+  client_secret   = var.client_secret
 }
 
 # Resource Group
