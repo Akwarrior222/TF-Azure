@@ -9,6 +9,11 @@ variable "instance_name" {
   type        = string
 }
 
+variable "client_secret" {
+   description = "Client secret"
+   type        = string
+}
+
 ## Network
 variable "subnet_id" {
   description = "ID of the existing subnet where the VM will be placed"
