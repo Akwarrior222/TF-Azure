@@ -74,7 +74,7 @@ resource "azurerm_role_assignment" "identity_roles" {
 
 # VM
 resource "azurerm_linux_virtual_machine" "vm" {
-  name                = "test-vm"
+  name                = "test-vm2"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   network_interface_ids = [
