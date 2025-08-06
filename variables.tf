@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 variable "proj_prefix" {
   type        = string
   description = "The prefix to use for all named Azure resources."
@@ -120,4 +121,19 @@ variable "location" {
   type        = string
   description = "The Azure region to deploy resources into."
   default     = "Central India"
+=======
+# Azure PostgreSQL
+variable "azure_postgres_password" {
+  description = "The administrator login password for the Azure PostgreSQL server."
+  type        = string
+  sensitive   = true
+  default     = ""
+}
+
+# Azure MySQL
+variable "azure_mysql_password" {
+  description = "The administrator login password for the Azure MySQL server."
+  type        = string
+  sensitive   = true
+>>>>>>> 0815a0bdd40db1cde8e3d9f263f57a83c6268fd7
 }
